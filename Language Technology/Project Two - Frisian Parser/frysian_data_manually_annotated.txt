@@ -1,0 +1,401 @@
+It Krystkongres is it jierlikse meardaachske kongres fan de Federaasje fan Fryske Studinteferienings yn Frjentsjer.
+
+ 	det(Krystkongres,It)
+	nsubj(is,Krystkongres)
+	det(kongres,it)
+	nmod(kongres,jierlikse)
+	amod(kongres,meardaachske)
+	cop(kongres,is)
+	case(Federaasje,fan)
+	det(Federaasje,de)
+	case(Studenteferienings,fan)
+	nmod(Studinteferienings,Fryske)
+	case(Frentsjer,yn)
+	punct(Frentsjer,.)
+	
+It kongres wurdt hâlden yn it âldste studintewaerdshûs fan Nederlân, de Bogt fen Guné, neist it Sjûkelân yn Frjentsjer. 
+	
+	det(Kongres,It)
+	nsubj(halden,Kongres)
+	aux(halden,wurdt)
+	case(studintenwaerdshus,yn)
+	det(studintewaerdshus,it)
+	amod(studintewaerdshus,aldste)
+	case(Nederlan,fan)
+	appos(Gune,studintewaerdshus)
+	conj(Gune,Bogt)
+	case(Gune,fen)
+	det(Gune,de)
+	case(Sjukelan,neist)
+	det(Sjukelan,it)
+	case(Frentsjer,yn)
+	punct(Nederlan,,)
+	punct(Gune,,)
+	punct(Frentsjer,.)
+
+Fryske studinten fan hiel Nederlân út komme hjir ienris yn it jier gear. 
+
+	amod(studinten,Fryske)
+	nsubj(komme,studinten)
+	case(Nederlan,fan)
+	amod(Nederlan,hiel)
+	case(komme,hjir)
+	advmod(komme,ienris)
+	case(jier,yn)
+	det(jier,it)
+	compound:prt(komme,gear)
+	punct(gear,.)
+
+De lêste jierren duorret it kongres twa dagen, yn it ferline hat it ek wol trije dagen west. 
+	
+	det(jierren,de)
+	amod(jierren,leste)
+	nsubj(duorret,kongres)
+	det(kongres,it)
+	obj(duoret,dagen)
+	nummod(dagen,twa)
+	acl:relcl(kongres,west)
+	case(ferline,yn)
+	det(ferline,it)
+	aux(west,hat)
+	advmod(hat,wol)
+	amod(wol,ek)
+	nummod(dagen,trije)
+	punct(west,.)	
+
+De earste Krystkongressen hiene plak yn Ljouwert.
+	
+	det(Krystkongressen,de)
+	amod(Krystkongressen,earste)
+	nsubj(hiene,Krystkongressen)
+	compound:prt(hiene,plak)
+	case(Ljouwert,yn)
+	obl(Ljouwert,Krystkongressen)
+	punct(Ljouwert,.)	
+
+
+Op de earste dei fan it kongres wurde de studinten moarns troch de boargemaster ûntfongen yn it stedhûs. 
+
+	case(dei,Op)
+	det(dei,de)
+	amod(dei,earste)
+	case(kongres,fan)
+	det(kongres,it)
+	nsubj(untfongen,studinten)
+	advmod(untfongen,moarns)
+	obl:agent(untfongen,boargemaster)
+	case(boargemaster,case)
+	det(boargemaster,de)	
+	aux(untfongen,wurde)
+	case(stedhus,yn)
+	det(stedhus,it)
+	punct(stedhus,.)
+	
+Middeis wurdt der in debat of lêzing hâlden oer in spesifyk en aktueel fraachstik yn de boppenseal fan de Bogt. 
+
+	advmod(halden,Middeis)
+	nsubj(halden,lezing)
+	aux(halden,wurdt)
+	det(debat,in)
+	conj(lezing,debat)
+	cc(lezing,of)
+	compound:prt(halden,oer)
+	case(fraachstik,oer)
+	det(fraachstik,in)
+	conj(aktueel,spesifyk)
+	cc(aktueel,en)
+	obj(fraachstik,halden)
+	case(boppenseal,yn)
+	det(boppenseal,de)
+	case(Bogt,fan)
+	det(Bogt,de)
+	punct(Bogt,.)
+
+It ûnderwerp of tema fan it debat hat meastentiids mei fraachstikken yn Fryslân te krijen, somtiden ek oer ynternasjonale minderhedenfraachstikken. 
+
+	det(underwerp,It)
+	conj(tema,underwerp)
+	cc(tema,of)
+	case(debat,fan)
+	det(debat,it)
+	nsubj(underwerp,krijen)
+	nsubj(tema,krijen)
+	aux(krijen,hat)
+	obj(krijen,fraachstikken)
+	case(Fryslan,yn)
+	mark(krijen,te)
+	acl:recl(krijen,minderhedenfraachstikken)
+	amod(minderhedenfraachstikken,ynternasjonale)
+	advmod(krijen,sometiden)
+	case(minderhedenfraachstikken,oer)
+	punct(krijen,.)
+	punct(minderhedenfraachstikken,.)
+
+Nei it waarme miel is it dan tiid foar ferdyvedaasje. 
+	
+	case(miel,Nei)
+	det(miel,It)
+	amod(miel,waarme)
+	nsubj(is,it)
+	cop(tiid,is)
+	obj(ferdyvedaasje,is)
+	case(ferdyvedaasje,foar)
+	punct(ferdyvedaasje,.)
+	
+Leden fan de ferskate ferienings stride om de keëlkas (tsjelken) fan de Bierkriich, de delkriich en de Kabaretkriich.
+	
+	nsubj(stride,Leden)
+	case(ferienings,fan)
+	det(ferienings,de)
+	amod(ferienings,ferskate)
+	obj(keelkas (tsjelken),stride)
+	case(keelkas (tsjelken),om)
+	det(keelkas (tsjelken),de)
+	case(Bierkriich,fan)
+	det(Bierkriich,de)
+	conj(delkriich,Bierkriich)
+	det(delkriich,de)
+	conj(Kabaretkriich,Bierkriich)
+	det(Kabaretkriich,de)
+	cc(Kabaretkriich,en)
+	punct(Bierkriich,,)
+	punct(Kabaretkriich,.)
+
+De twadde dei is û.o. ornearre foar de Federaasje Lede Gearkomste. 
+	
+	det(dei,De)
+	nummod(dei,twadde)
+	nsubj(ornearre,dei)
+	aux(ornearre,is)
+	case(Federaasje,foar)
+	det(Federaasje,de)
+	flat:name(Federaasje,Lede)
+	flat:name(Federaasje,Gearkomste)	
+	punct(Gearkomste,.)
+
+Gauris stiet in besite oan in museum yn Frjenstjer op it program. 
+	
+	advmod(stiet,Gauris)
+	nsubj(stiet,besite)
+	det(besite,in)
+	case(museum,oan)
+	det(museum,in)
+	case(Frentsjer,yn)
+	case(program,op)
+	det(program,it)
+	punct(program,.)
+
+Ek in stedkuier of Fryske tsjerketsjinst hat in aktiviteit west.
+
+	amod(in,Ek)
+	det(stedkuier,in)
+	conj(tsjerkentsjinst,stedkuier)
+	cc(tsjerketsjinst,of)
+	amod(tsjerketsjinst,Fryske)
+	nsubj(west,stedkuier)
+	aux(west,hat)
+	obl(stedkuier,aktiviteit)
+	det(akitiviteit,in)
+	punct(west,.)	
+
+Stanisław Franciszek Sosabowski (Stanisławów (tsjintwurdich Ivano-Frankivsk, Oekraïne), 8 maaie 1892 - Hillingdon, 25 septimber 1967) wie in generaal-majoar yn it Poalske leger.
+
+	nsubj(wie,Stanislaw)
+	flat:name(Franciszek,Stanislaw)
+	flat:name(Sosabowski,Stanislaw)
+	cop(generaal-majoar,wie)
+	case(leger,yn)
+	det(leger,it)
+	amod(leger,Poalske)
+	punct(leger,.)
+
+Hy wie de oprjochter fan de Poalske 1e Unôfhinklike Parasjutistebrigade, wêrmei't er as befelhawwer yn septimber 1944 focht yn de Operaasje Market Garden. 
+	
+	nsubj(wie,Hy)
+	det(oprjochter,de)
+	obj(wie,oprjochter)
+	case(Poalske,fan)
+	det(Poalske,de)
+	flat:name(Parajutistebrigade,Poalske)
+	flat:name(Unofhinklike,Poalske)
+	flat:name(1e,Poalske)
+	obj(focht,wermei't)
+	nsubj(focht,er)
+	advcl(befelhawwer,focht)
+	mark(befelhawwer,as)
+	case(septimber,yn)
+	conj(1944,septimber)
+	case(Operaasje,yn)
+	det(Operaasje,de)
+	flat:name(Garden,Operaasje)
+	flat:name(Market,Operaasje)
+	punct(Parajutistebrigade,,)
+	punct(Garden,.)
+	
+Sosabowski waard troch ferskate minsken ferantwurdlik holden foar it mislearjen fan dy operaasje.
+	
+	nsubj(holden,Sosabowski)
+	aux(holden,waard)
+	obj:agent(minsken,holden)
+	case(minsken,troch)
+	amod(minsken,ferskate)	
+	ccomp(holden,ferantwurdlik)
+	case(mislearjen,foar)
+	det(mislearjen,it)
+	case(operaasje,fan)
+	det(operaasje,dy)
+	punct(operaasje,.)
+
+Hy studearre rjochten en gie as amtner oan it wurk. 
+
+	nsubj(studearre,Hy)
+	obj(studearre,rjochten)
+	conj(studearre,gie)
+	advcl(gie,amtner)
+	mark(amtner,as)
+	case(work,oan)
+	det(wurk,it)
+	punct(wurk,.)
+	
+Op 1 augustus 2009 waard syn opfolger bekend, Anders Fogh Rasmussen.
+	
+	case(augustus,Op)
+	nummod(augustus,1)
+	conj(2009,augustus)
+	nsubj(opfolger,bekend)
+	aux(bekend,waard)
+	nmod:poss(opfolger,syn)
+	acl(bekend,Anders)
+	flat:name(Rasmussen,Anders)
+	flat:name(Fogh,Anders)
+	punct(bekend,,)
+	punct(Rasmussen,.)
+
+Quinty Trustfull-Van den Broek (Amsterdam, 6 oktober 1971) is in Nederlânsk telefyzjepresintatrise en earder model.
+	
+	nsubj(is,Quinty)
+	flat:name(Trustfull-Van,Quinty)
+	flat:name(den,Quinty)
+	flat:name(Broek,Quinty)
+	cop(is,telefyzjepresintatrise)
+	amod(telefyzjepresintatrise,Nederlansk)
+	det(telefyzjepresintatrise,in)
+	conj(model,telefyzejepresentatrise)
+	amod(model,earder)
+	punct(model,.)
+
+De White Pine Award is in Kanadeeske literatuerpriis dy't op jierlikse basis útrikt wurdt oan 'e skriuwer fan it as bêste beoardiele wurk op it mêd fan jong-folwoekseneliteratuer fan it foargeande jier. 
+	
+	det(White,De)
+	flat:name(Award,White)
+	flat:name(Pine,White)
+	nsubj(is,White)
+	cop(literatuerpriis,is)
+	det(literatuerpriis,in)
+	amod(literatuerpriis,Kanadeeske)
+	obj(utrikt,dy't)
+	acl:recl(literatuerpriis,utrikt)
+	case(basis,op)
+	amod(basis,jierlikse)
+	aux(utrikt,wurdt)
+	case(skriuwer,oan)
+	det(skriuwer,'e)
+	case(wurk,fan)
+	det(wurk,it)
+	mark(beste,as)
+	advmod(beoardiele,beste)
+	amod(wurk,beoardiele)
+	case(med,op)
+	det(med,it)
+	case(jong-folwoeksenliteratuer,fan)	
+	case(jier,fan)
+	det(jier,it)
+	amod(jier,foargeande)
+	punct(jier,.)
+	
+Hy krige in soad niget oan dat reliëfwurk. 
+	
+	nsubj(krige,Hy)
+	obj(krige,niget)
+	det(niget,in)
+	amod(niget,soad)
+	case(reliefwurk,oan)
+	det(reliefwurk,dat)
+	punct(reliefwurk,.)
+	
+Hy begûn ek bylden te snijen, dat lêste waard syn grutte hobby.
+	
+	nsubj(begun,Hy)
+	amod(snijen,ek)
+	aux(snijen,begun)
+	mark(snijen,te)
+	obj(snijen,bylden)
+	nsubj(waard,leste)
+	det(leste,dat)
+	cop(waard,hobby)	
+	nmod:poss(hobby,syn)
+	amod(hobby,grutte)
+	punct(snijen,,)
+	punct(hobby,.)
+
+Meastentiids makke hy bylden nei oanlieding fan barrens yn de maatskippij dy't him oangrypten.
+	
+	advmod(makke,Meastentiids)
+	nsubj(makke,hy)
+	obj(makke,bylden)
+	case(oanleiding,nei)
+	case(barrens,fan)
+	case(maatskippij,yn)
+	det(maatskippijt,de)
+	acl:recl(oangrypten,barrens)
+	obj(oangrypten,dy't)
+	iobj(oangrypten,him)
+	punct(oangrypten,.)
+
+Yn Huzum (Ljouwert) stie oant 2004 it Nanning Hendrik Bulthuis-museum. 
+	
+	case(Huzum (Ljouwert,Yn)
+	nsubj(stie,Nanning)
+	flat:name(Hendrik,Nanning)
+	flat:name(Bulthuis-museum,Nanning)
+	det(Nanning,it)
+	case(2004,oant)
+	punct(Bulthuis-museum,.)
+
+Yn it Museum foar Tsjerklike Keunst yn Warkum steane ek bylden fan him.
+
+	case(Museum,Yn)
+	det(Museum,it)
+	flat:name(foar,Museum)
+	flat:name(Tsjerklike,Museum)
+	flat:name(Keunst,Museum)
+	case(Warkun,yn)
+	nsubj(stienen,bylden)
+	xcomp(stienen,ek)
+	case(him,fan)	
+	punct(him,.)
+
+De Klamp is in pleats en delsetting besuden Goutum yn de gemeente Ljouwert.
+	
+	det(Klamp,de)
+	nsubj(is,Klamp)
+	cop(pleats,is)
+	det(pleats,in)
+	conj(delsetting,pleats)
+	cc(delsetting,en)
+	conj(Goutum,besuden)
+	case(gemeente,yn)
+	flat:name(Ljouwert,gemeente)
+	punct(Ljouwert,.)
+
+De namme komt ek foar as Klamp en de Klampsterbrêge. 
+
+	det(namme,De)
+	nsubj(komt,namme)
+	compound:prt(foar,komt)
+	advmod(ek,komt)
+	advcl(komt,as)
+	conj(Klampsterbrege,Klamp)
+	cc(Klampsterbrege,en)
+	det(Klampsterbrege,de)
+	punct(Klampsterbrege,.)
