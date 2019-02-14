@@ -1,5 +1,4 @@
-# FinalProjectGroup13.py
-# Julius Sytstra, Jeroen Boers, Guido Cnossen - Group 13 - Project Tekst Analyse
+# Project Tekst Analyse - Final Project
 
 import nltk
 import sys
